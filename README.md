@@ -6,8 +6,7 @@ This repository contains miscellaneous generic Python tools
 
 **Python Library Validation: lib_validate.py**
 
-Validates the Python development environment by checking the Pythong version and import path.
-Also Checks to ensure that all imported libraries required the modules in brcdapi and brcddb are in the Python path.
+Recursively validates access to the Python libraries for import statements.
 
 *Background*
 
